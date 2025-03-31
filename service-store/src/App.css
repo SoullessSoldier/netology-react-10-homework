@@ -1,0 +1,14 @@
+#root {
+  margin: 0 auto;
+  padding: 40px;
+  width: 800px;  
+  min-height: 100vh;
+}
+
+html {
+  scrollbar-gutter: stable;
+}
+
+a {
+  text-decoration: none;
+}

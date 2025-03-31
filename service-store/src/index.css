@@ -1,0 +1,6 @@
+@import "@/assets/styles/root.css";
+@import "@/assets/styles/fonts.css";
+
+body {
+  font-family: Roboto, sans-serif;
+}
