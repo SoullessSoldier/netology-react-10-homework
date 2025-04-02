@@ -1,4 +1,14 @@
-import { ADD_SERVICE, REMOVE_SERVICE, UPDATE_SERVICE, CHANGE_SERVICE_FIELD, RESET_SERVICE_FORM, EDIT_SERVICE_FORM, EDIT_SERVICE_STATE } from "./actions";
+import {
+  ADD_SERVICE,
+  REMOVE_SERVICE,
+  UPDATE_SERVICE,
+  CHANGE_SERVICE_FIELD,
+  RESET_SERVICE_FORM,
+  EDIT_SERVICE_FORM,
+  EDIT_SERVICE_STATE,
+  FILTER_SERVICE,
+  CLEAR_FILTER_SERVICE,
+} from "./actions";
 
 export function addService(name,price) {
     return {type: ADD_SERVICE, payload: {name, price}}
@@ -26,3 +36,12 @@ export function editServiceForm(name, price) {
 export function editServiceState(serviceId, isEdit) {
   return { type: EDIT_SERVICE_STATE, payload: { serviceId, isEdit: isEdit } };
 }
+
+export function filterService(name, value) {
+  return { type: FILTER_SERVICE, payload: { name, value } };
+}
+
+export function clearFilterService(name, value) {
+  return { type: CLEAR_FILTER_SERVICE, payload: { name, value } };
+}
+

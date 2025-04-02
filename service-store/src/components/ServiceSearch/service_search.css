@@ -1,0 +1,9 @@
+.service-search .radio-group input,
+.service-search .radio-group label {
+  cursor: pointer;
+  user-select: none;
+}
+
+.service-search .radio-group-title {
+  user-select: none;
+}
