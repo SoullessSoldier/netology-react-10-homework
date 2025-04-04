@@ -1,0 +1,13 @@
+.form {
+    margin: 0 auto;
+    width: 800px;
+}
+
+.form-control-wrapper {
+min-height: 38px;
+}
+.form-check-input,
+.form-check-label {
+    cursor: pointer;
+    user-select: none;
+}

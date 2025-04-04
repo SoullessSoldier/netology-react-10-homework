@@ -1,0 +1,67 @@
+.item-card {
+  width: 300px;
+  height: auto;
+  padding: 5px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  font-size: 1.8rem;
+  user-select: none;
+}
+.item-card-image-wrapper {
+  height: 320px;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-image-bgcolor);
+}
+.item-card-image {
+}
+.item-card-price-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.item-card-price {
+  font-size: 1.4rem;
+  color: var(--color-text-gray);
+  text-decoration: line-through;
+  line-height: 1;
+}
+.item-card-price-final {
+  color: var(--color-text-main);
+  line-height: 1;
+}
+.item-card-title {
+  width: 100%;
+  color: var(--color-link);
+  text-align: center;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  cursor: pointer;
+}
+.item-card-discount {
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: var(--color-white);
+  background-color: var(--color-red);
+  text-align: center;
+  border-radius: 50%;
+}
